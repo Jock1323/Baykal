@@ -1283,23 +1283,49 @@ header nav ul{
         display: block;
         position:fixed;
         height:100vh; 
-        width:45%;
+        width:40%;
         top: 0;
         left: 0;
-        background-color: #202020;
+        background-color: #fff;
         z-index: 1000;
         transition: all 0.5s;
         opacity: 1;
-        text-align: center;
+        padding-left: 20px;
+        overflow: auto;
+    }
+    .footer__nav ul li{
+        list-style-type: none;
     }
     .footer__item .footer__flexed--1{
         display: block;
+    }
+    .footer__item .footer__flexed--1 h4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 38px;
+        color: #000;
+    }
+    .footer__item .footer__flexed--1 p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 38px;
+        margin: 0;
+        color:#0050B2;
+    }
+    .footer__item{
+        margin-top: 10px;
+    }
+    .footer__item:nth-child(1),
+    .footer__item:nth-child(2){
+        margin-top: 0;
     }
     .footer__item .toggle__end{
         float: right;
         margin-right:16px;
         font-size: 30px;
-        color: #fff;
+        color: #000;
 
     }
     .hidden{
