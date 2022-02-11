@@ -1396,6 +1396,7 @@ header nav ul{
     .section-1 .arrow__down{
         margin-top:20px;
     }
+   
     .section-2__flexed--card{
         width: 288px;
         height: 225px;
@@ -1413,6 +1414,7 @@ header nav ul{
     .section-2__flexed--card:nth-child(12){
         margin-top: 16px;
     }
+   
     .section-3 h2{
         font-size: 22px;
         line-height: 29px;
@@ -1436,6 +1438,7 @@ header nav ul{
     }
     .section-4{
         height: 1941px;
+       
     }
     .section-4 h3{
         padding-top: 25px;
@@ -1444,7 +1447,7 @@ header nav ul{
         width: 230px;
     }
     .section-4__grid{
-        grid-template-columns: auto;
+        grid-template-columns:auto;
     }
     .section-4__grid--2{
         display: none;
@@ -1492,6 +1495,9 @@ header nav ul{
         width: 218px;
     
     }
+    .section-4__info{
+        width: 100%;
+    }
     .section-4__info span{
         position: absolute;
         font-size: 14px;
@@ -1511,6 +1517,7 @@ header nav ul{
   .section-4 .line{
       margin-top: 32px;
   }
+
   .section-5__flex{
       display: block;
   }
@@ -1553,11 +1560,12 @@ header nav ul{
     margin-top: 33px;
 }
 .section-6__grid .grid-item{
-    width: 288px;
+    width:280px;
     height: 210px;
+    border-radius: 6px;
 }
 .section-6__grid .grid-item img{
-    width: 288px;
+    width:100%;
     height: 210px;
 }
 .section-6 a.hidden{
@@ -1565,6 +1573,7 @@ header nav ul{
     text-align: center;
     margin-top: 32px;
 }
+
 .section-7 h3{
     width: 285px;
     font-size: 22px;
@@ -1642,7 +1651,7 @@ header nav ul{
         
     }
     .section-8__input--3 input{
-        width: 136px;
+        width: 129px;
         margin: 0;
     }
     .section-8__input--3 input#change{
