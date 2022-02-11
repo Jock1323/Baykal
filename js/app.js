@@ -1,11 +1,13 @@
 const toggleEnd=document.querySelector('.toggle__end');
-const toggleStart=document.querySelector('.toggle__start')
+const toggleStart=document.querySelectorAll('.toggle__start');
 const nav=document.querySelector('.footer__nav');
 toggleEnd.addEventListener('click',()=>{
     nav.style.left='-100%';
 });
-toggleStart.addEventListener('click',()=>{
-    nav.style.left='0';
-})
+for(let i=0;i<toggleStart.length;i++){
+    toggleStart[i].addEventListener('click',()=>{
+       nav.style.left='0';
+    });
+}
 
 
