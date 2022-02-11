@@ -1354,7 +1354,7 @@ header nav ul{
     
 
   
-}
+} 
 
 /* For mobile */
 
@@ -1647,7 +1647,7 @@ header nav ul{
     }
     .section-8__input--3 input#change{
         top: 0;
-        left:0px;
+        left:152px;
     }
     .section-8__input--3 textarea{
      top: 60px;
