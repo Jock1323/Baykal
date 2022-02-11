@@ -1684,8 +1684,29 @@ header nav ul{
         margin-top:8px;
     }
     footer{
+        padding-bottom: 29px;
+    }
+    .footer__info{
         display: none;
     }
+    .footer__nav{
+        width: 100%;
+    }
+   
+    .footer__flex--2{
+        display: block;
+    }
+    .footer__flexed--2:nth-child(4){
+        margin-top: 29px;
+    }
+    .footer__flexed--2:nth-child(4) p img{
+      float: left;
+      margin-top: 15px;
+    }
+    .footer__flexed--2 h4{
+        font-size: 14px;
+    }
+
 
 }
 
