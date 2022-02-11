@@ -367,6 +367,9 @@ header nav ul{
     
    
 }
+.section-4__grid .hidden{
+    display: none;
+}
 
 .section-4 .grid-item{
     position: relative;
@@ -611,6 +614,9 @@ header nav ul{
     .section-6__grid .grid-item:nth-child(6){
         margin-top: 32px;
     }
+    .section-6 a.hidden{
+        display:none;
+    }
    
 /* /Section-6 */
 
@@ -795,6 +801,12 @@ header nav ul{
     .section-8__input--4 .inner__input a:hover{
         text-decoration: underline;
 
+    }
+    .section-8__input--4 a.hidden{
+        display: inline-block;
+    }
+    .section-8__input--4 a.change{
+        display:none;
     }
     .section-8__input--1 input+input,
     .section-8__input--2 input+input{
@@ -1349,7 +1361,6 @@ header nav ul{
 @media only screen and (max-width:735px){
     .container{
         max-width: 328px;
-        background-color:red;
     }
     .hidden__toggle{
         display:block;
@@ -1384,6 +1395,23 @@ header nav ul{
     }
     .section-1 .arrow__down{
         margin-top:20px;
+    }
+    .section-2__flexed--card{
+        width: 288px;
+        height: 225px;
+    }
+    .section-2__flexed--card:nth-child(2),
+    .section-2__flexed--card:nth-child(3),
+    .section-2__flexed--card:nth-child(4),
+    .section-2__flexed--card:nth-child(5),
+    .section-2__flexed--card:nth-child(6),
+    .section-2__flexed--card:nth-child(7),
+    .section-2__flexed--card:nth-child(8),
+    .section-2__flexed--card:nth-child(9),
+    .section-2__flexed--card:nth-child(10),
+    .section-2__flexed--card:nth-child(11),
+    .section-2__flexed--card:nth-child(12){
+        margin-top: 16px;
     }
     .section-3 h2{
         font-size: 22px;
@@ -1433,6 +1461,9 @@ header nav ul{
        margin-left: 32px;
        
     }
+    .section-4__grid .hidden{
+        display:block;
+    }
     .section-4 .grid-item{
         margin-left: 0;
         margin-right: 0;
@@ -1444,8 +1475,207 @@ header nav ul{
     .section-4 .grid-item:nth-child(2),
     .section-4 .grid-item:nth-child(3),
     .section-4 .grid-item:nth-child(4),
-    .section-4 .grid-item:nth-child(5){
+    .section-4 .grid-item:nth-child(5),
+    .section-4 .grid-item:nth-child(6){
+        margin-top:16px;
+    }
+    .big__info p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height:21px;
+        margin: 25px 21px 0 18px;
+        width: 249px;
+    }
+    .big__info span{
+        top:230px;
+        left: 41px;
+        width: 218px;
+    
+    }
+    .section-4__info span{
+        position: absolute;
+        font-size: 14px;
+        line-height:18px;
+        top:244px;
+        left:20px;
+        width: 246px;
+    
+    }
+    .section-4__info span.move{
+        top: 225px;
+        font-size:14px;
+        font-weight: 400;
+        line-height:18px;
+        width: 218px;
+    }
+  .section-4 .line{
+      margin-top: 32px;
+  }
+  .section-5__flex{
+      display: block;
+  }
+  .section-5 .supname{
+      font-size: 22px;
+      line-height: 30px;
+  }
+  .section-5__flexed--1{
+      width: 288px;
+  }
+  .section-5__flexed--1 p{
+      font-size: 16px;
+      line-height: 21px;
+  }
+  .section-5__flexed--1 a{
+      margin-top: 5px;
+  }
+  .section-5__flexed--2 video{
+    width: 288px;
+    height: 171px;
+    margin-top: 36px;
+}
+.section-6{
+    height: 386px;
+}
+.section-6 .supname{
+    font-size: 22px;
+    line-height: 29px;
+}
+.section-6__flex{
+    padding-top: 26px;
+}
+.section-6__flexed a.link{
+    display: none;
+}
+.section-6__grid{
+    width:100%;
+    height: 210px;
+    overflow: hidden;
+    margin-top: 33px;
+}
+.section-6__grid .grid-item{
+    width: 288px;
+    height: 210px;
+}
+.section-6__grid .grid-item img{
+    width: 288px;
+    height: 210px;
+}
+.section-6 a.hidden{
+    display:block;
+    text-align: center;
+    margin-top: 32px;
+}
+.section-7 h3{
+    width: 285px;
+    font-size: 22px;
+    line-height: 29px;
+    padding-top: 33px;
+}
+.section-7__flexed--2 p{
+    margin-top: 7px;
+    font-size: 16px;
+}
+.section-7 .line{
+
+    margin-top: 25px;
+}
+.section-7__flex--2{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    margin-top: 27px;
+}
+
+.section-7__flexed--3 span{
+    font-size: 44px;
+    line-height: 57px;
+}
+.section-7__flexed--3 p{
+    font-size: 14px;
+    line-height: 18px;
+}
+.section-7__flexed--3:nth-child(4),
+    .section-7__flexed--3:nth-child(3),
+    .section-7__flexed--3:nth-child(2){
+        margin-left:0;
+    }
+    .section-7__flexed--3:nth-child(5){
+        margin-top: 53px;
+    }
+    .section-7__flexed--3:nth-child(4),
+    .section-7__flexed--3:nth-child(3){
+        margin-top: 15px;
+    }
+    .section-7__flexed--3:nth-child(1){
+        width:92px;
+    }
+    .section-7__flexed--3:nth-child(2){
+        width: 100px;
+        margin-right: 35px;
+    }
+    .section-7__flexed--3:nth-child(4){
+        width: 137px;
+    }
+    .section-7__flexed--3:nth-child(3){
+        width: 100px;
+    }
+    .section-8{
+        height: 880px;
+    }
+    .section-8 .supname{
+        font-size: 22px;
+        line-height: 29px;
+        width: 248px;
+        padding-top: 29px;
+    }
+    .section-8__input--1{
+        margin-top: 14px;
+    }
+    .section-8__input--2 input:nth-child(2),
+    .section-8__input--2 input:nth-child(3){
+        width:100%;
+        margin: 16px 0 0 0;
+    }
+    .section-8__input--3{
+        display:inline-block;
         margin-top: 16px;
+        
+    }
+    .section-8__input--3 input{
+        width: 136px;
+        margin: 0;
+    }
+    .section-8__input--3 input#change{
+        top: 0;
+        left:0px;
+    }
+    .section-8__input--3 textarea{
+     top: 60px;
+     left: 0;
+     width: 280px;
+     height: 180px;
+    }
+    .section-8__input--4{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin-top:233px;
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 44px;
+    }
+    .section-8__input--4 a{
+        width: 288px;
+    }
+    .section-8__input--4 a.hidden{
+        display: none;
+    }
+    .section-8__input--4 a.change{
+        display:inline-block;
+        margin-top:8px;
+    }
+    footer{
+        display: none;
     }
 
 }
