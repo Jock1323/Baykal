@@ -1738,6 +1738,7 @@ header nav ul{
         }
         .footer__nav .mobile__inner .footer__icon .fas{
             color: #fff;
+            font-size: 16px;
         }
         .footer__flexed--1 #type{
             display: block;
