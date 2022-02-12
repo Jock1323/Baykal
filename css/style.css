@@ -1306,8 +1306,8 @@ header nav ul{
         display: block;
         position:fixed;
         height:100vh; 
-        width:40%;
-        top: 72px;;
+        width:100%;
+        top:72px;
         left: 0;
         background-color: #fff;
         z-index: 1000;
