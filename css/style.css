@@ -1355,6 +1355,9 @@ header nav ul{
     .hidden{
         display: none;
     }
+    .footer__nav .hidden{
+        display:none;
+    }
     
     
 
@@ -1740,7 +1743,7 @@ header nav ul{
             display: block;
         }
         .footer__flexed--1 a.type{
-            display:inline-block;
+            display:block;
             font-family: 'Roboto', sans-serif;
             font-size: 16px;
             line-height:19px;
@@ -1774,7 +1777,9 @@ header nav ul{
         font-size: 32px;
         color: #fff;
     }
-
+    .footer__nav .hidden{
+        display:inline-block;
+    }
 
 }
 
