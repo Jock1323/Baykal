@@ -1710,6 +1710,7 @@ header nav ul{
         display: none;
     }
     .footer__nav{
+        padding-bottom: 32px;
         width: 100%;
     }
     .footer__nav .mobile__inner{
@@ -1758,6 +1759,9 @@ header nav ul{
             width: 280px;
             height: 48px;
             background-color: #0061D9;
+        }
+        .footer__flexed--1 a.type:active{
+            background-color: #004395;
         }
    
     .footer__flex--2{
