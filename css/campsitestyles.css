@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/*   font-family: 'PT Serif', serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.container{
+    padding:0 20px;
+    max-width: 1156px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Header */
+.header{
+    color: #000;
+    width: 100%;
+}
+.nav-1{
+    padding-top: 13px;
+}
+header nav ul li,
+.nav-2 ul li{
+    list-style: none;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: inline-flex;
+    align-items: center;
+}
+.logo__info{
+   
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 20px;
+
+}
+.logo-title{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.5px;
+}
+.logo-suptitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21.9px;
+    display: block;
+}
+.hidden__toggle{
+    display: none;
+}
+.contact{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.4px;
+    display: inline-flex;
+    align-items: center;
+    color: #000;
+}
+.header__icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  background-color:rgba(0,0,0,0.4);
+}
+.header__icon .fas{
+    font-size: 14px;
+    color: #fff;
+
+}
+#liquid{
+    margin-left: 33px;
+}
+.call{
+    margin-left: 13px;
+}
+.return-call a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #0061D9;
+    padding: 12px 6px 18px 6px;
+    border-radius: 22px;
+    width: 186px;
+    color: #0050B2;
+    transition: background-color .5s;
+}
+.return-call a:hover,
+.section-1 .type:hover,
+.arrow__down:hover{
+    background-color:#004395;
+    color: #fff;
+    cursor: pointer;
+}
+.line{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin-top: 14px;
+
+
+}
+
+/* /Header */
+
+/* Section-1 */
+.nav-2{
+    background-color:#fff;
+    position: relative;
+    display: inline-block;
+    padding:20px 0;
+}
+.nav-2 ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav-2 ul li+li{
+    margin-left: 32px;
+}
+.nav-2 ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height:18.75px;
+    text-decoration: none;
+    color: #333333;
+}
+.nav-2 li:hover .nav-2__overlay{
+    visibility: visible;
+    height: 133px;
+}
+.nav-2 li:hover .nav-2__info{
+    visibility: visible;
+}
+.nav-2__info{
+    position: absolute;
+    width: 171px;
+    top:20px;
+    left:0;
+    z-index: 10;
+    visibility: hidden;
+    transition:visibility 0.1s linear;
+    color: #0050B2;
+}
+.nav-2__info a.colorfull{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height:38px;
+    display: block;
+    color: #0050B2;
+}
+.nav-2__info a.colorfull:hover{
+    color: #D51A1A;
+}
+.nav-2__overlay{
+    position: absolute;
+    width:212px;
+    background-color: #fff;
+    height:0;
+    top: 100%;
+    visibility: hidden;
+    transition:all .5s linear;
+}
+#jump{
+    left:-14px;
+}
+
+/* Section-2 */
+    .section-2{
+        background-image: url(../images/БАННЕР__Базы-отдыха-на-озере-Байкале\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 496px;
+    }
+
+    .section-2 .transition,
+    .section-2 .active--span{
+        padding-top: 22px;
+    }
+    .section-2 .transition,
+    .active--span{
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height:16px;
+        color: #fff;
+    }
+    .section-2 .active--span{
+        font-weight: 500;
+    }
+    .section-2 h1{
+          font-family: 'PT Serif', serif;
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 58px;
+          color: #fff;
+          text-align: center;
+          margin-top: 163px;
+    }
+/* /Section-2 */
+
+/* Section-3 */
+
+    .section-3{
+        background-color: #fff;
+    }
+    .section-3 p.supname{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height:28px;
+        color: #000;
+        padding-top: 79px;
+    }
+    .section-3 .flex__card{
+        display: flex;
+        margin-top: 6px;
+        background-color: #F5F5F7;
+        border-radius: 6px;
+        height: 352px;
+    }
+    .section-3 .flex__card--img img{
+        width: 352px;
+        height: 352px;
+        display: block;
+        border-radius: 6px 0 0 6px;
+    }
+    .section-3 .flex__card--info{
+        margin-top: 21px;
+        margin-left: 33px;
+        width: 351px;
+        height: 304px;
+        border: 1px solid transparent;
+        border-right-color: #D9D9DE;
+        padding-right: 16px;
+    }
+    .section-3 .flex__card--info h3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height:28px;
+        color: #000;
+    }
+    .section-3 .flex__card--info p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:21px;
+        margin-top: 17px;
+        color: #000;
+    }
+    .section-3 .flex__card--info a.readmore{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:19px;
+        display: inline-block;
+        width: 156px;
+        height:44px;
+        margin-top:30px;
+        padding: 13px;
+        border: 1px solid #0061D9;
+        border-radius: 22px;
+        text-align: center;
+        text-decoration: none;
+        color: #0050B2;
+        transition: background-color .5s;
+    }
+    .section-3 .flex__card--info a.readmore:hover{
+        background-color:#004395;
+        color: #fff;
+        cursor: pointer;
+    }
+    .section-3 #flex__card--info{
+        padding-left: 16px;
+    }
+    .section-3 #flex__card--info h3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height:23px;
+        color:#76767A;
+        margin-top: 25px;
+    }
+    .section-3 #flex__card--info a{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:21px;
+        color:#0050B2;
+        text-decoration: none;
+        margin-top: 18px;
+    }
+    .section-3 article#positioned{
+        margin-top: 32px;
+    }
+    .section-3 article#positioned #flex__card--info a.changiable{
+        margin-top: 13px;
+    }
+    
+
+ 
+/* /Section-3 */
