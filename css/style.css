@@ -19,10 +19,10 @@ body{
 }
 /* Header */
 .header{
+    width: 100%;
     color: #fff;
     position: absolute;
     top: 0;
-    width: 100%;
 }
 .nav-1{
     padding-top: 13px;
@@ -59,6 +59,10 @@ header nav ul{
     line-height: 21.9px;
     display: block;
 }
+.logo-title,
+.logo-suptitle{
+  color: #fff;
+}
 .hidden__toggle{
     display: none;
 }
@@ -78,9 +82,10 @@ header nav ul{
     width: 24px;
     height: 24px;
     border-radius: 50%;
-  background-color:rgba(255, 255,255,0.8);
+    background-color:rgba(255, 255,255,0.8);
 }
 .header__icon .fas{
+    font-size: 14px;
     color: rgb(69, 113, 189);
 }
 #liquid{
@@ -96,12 +101,13 @@ header nav ul{
     line-height: 18.75px;
     text-decoration: none;
     text-align: center;
-    border: 1px solid rgba(255, 255,255,0.5);
     padding: 12px 6px 18px 6px;
     border-radius: 22px;
     width: 186px;
-    color: #fff;
     transition: background-color .5s;
+    border: 1px solid rgba(255, 255,255,0.5);
+    color: #fff;
+   
 }
 .return-call a:hover,
 .section-1 .type:hover,
@@ -116,8 +122,6 @@ header nav ul{
     width: 100%;
     height: 1px;
     background-color: #C4C4C4;
-
-
 }
 
 /* /Header */
@@ -135,7 +139,7 @@ header nav ul{
 .nav-2{
     position: relative;
     display: inline-block;
-    margin-top: 20px;
+    padding:20px 0;
 }
 .nav-2 ul li{
     display: inline-block;
