@@ -691,7 +691,7 @@ footer .line{
         height:100vh; 
         width:100%;
         top:0;
-        left: 0;
+        left:-100%;
         background-color: #fff;
         z-index: 1000;
         transition: all 0.5s;
@@ -879,6 +879,7 @@ footer .line{
         display: none;
     }
     .footer__nav{
+      
         padding-bottom: 32px;
         width: 100%;
     }

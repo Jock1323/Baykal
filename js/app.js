@@ -21,7 +21,7 @@ btnType.addEventListener('click',()=>{
 })
 for(let i=0;i<burgerLink.length;i++){
     burgerLink[i].addEventListener('click',()=>{
-       nav.style.left='0';
+       nav.style.left='-100%';
  
     });
 }
