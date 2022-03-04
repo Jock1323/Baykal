@@ -17,6 +17,13 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+.supname{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size:30px;
+    line-height:39px;
+    color: #000;
+}
 /* Header */
 
 header nav ul li,
